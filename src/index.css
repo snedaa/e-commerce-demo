@@ -1,13 +1,128 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css");
+/* @import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"); */
+
+.options {
+  @apply flex list-none h-full ml-11;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.options li {
+  @apply h-full w-28 flex items-center justify-center uppercase font-semibold;
+}
+
+.options li {
+  transition: background-color 2s ease-out 100ms;
+}
+
+.options li:hover {
+  background-color: lightgrey;
+}
+
+.shop-icons {
+  @apply text-xl mx-3 transition-all cursor-pointer hover:text-gray-600;
+}
+
+.slider-photos img {
+  @apply h-[500px] w-full object-fill;
+}
+
+.category {
+  @apply flex w-full  flex-wrap justify-center;
+}
+
+.category-img {
+  @apply h-52 mx-2 my-9 cursor-pointer shadow-2xl;
+}
+
+.category-img img {
+  @apply h-full object-cover border w-96;
+}
+
+.category-img img:hover {
+  opacity: 0.5;
+}
+
+.category-img span {
+  @apply font-light uppercase flex justify-center text-lg mt-5;
+}
+
+.footer {
+  @apply bg-gray-300 h-96 mt-11 flex justify-evenly w-full;
+}
+
+.footer-item h3 {
+  @apply uppercase mt-14 font-semibold mb-8;
+}
+
+.footer-item li {
+  @apply list-none mb-3  cursor-pointer transition-all w-full text-gray-400 font-semibold hover:text-black;
+}
+
+.footer-input {
+@apply p-2 bg-transparent outline-none
+}
+
+.footer-input{
+  border-bottom: 1px solid grey !important;
+}
+
+.footer-item button {
+  @apply bg-indigo-400 px-9 py-4 rounded-3xl uppercase mt-5 transition-all text-white hover:bg-white hover:text-indigo-400;
+}
+
+.product-category{
+   @apply list-none flex mt-8 mb-14 w-[60%]  py-5 shadow-md mx-auto
+}
+
+.product-category li{
+  @apply mx-3 font-semibold text-gray-500 cursor-pointer hover:text-black
+}
+
+.pagination button{
+  @apply mx-3 w-11 
+}
+
+.about p{
+  @apply text-gray-400 
+}
+
+.product-cart{
+  @apply border w-[60%]
+}
+
+.cart-title{
+  @apply flex list-none py-3 border-b justify-around
+}
+
+.cart-title li{
+  @apply  font-semibold uppercase
+}
+
+.cart-title :first-child{
+  @apply mr-28
+}
+
+.quantity{
+  @apply flex items-center
+}
+
+.quantity div{
+  @apply w-9 mx-1 h-9 flex items-center justify-center border 
+}
+
+.quantity input::-webkit-outer-spin-button,
+.quantity input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.quantity input {
+  @apply w-full text-center h-full bg-slate-200 outline-none
+}
+
+.cart{
+  @apply w-80 p-4
 }
