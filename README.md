@@ -118,8 +118,8 @@ Bir çok projede kullanabileceğim yapıları bir yerde toplamanın önemini anl
   
 ## Ekran Görüntüleri
 
-![Uygulama Ekran Görüntüsü](/public/images/img3.png)
-![Uygulama Ekran Görüntüsü](/public/images/img2.png)
-![Uygulama Ekran Görüntüsü](/public/images/img1.png)
+![Uygulama Ekran Görüntüsü](/public/images/img3.jpg)
+![Uygulama Ekran Görüntüsü](/public/images/img2.jpg)
+![Uygulama Ekran Görüntüsü](/public/images/img1.jpg)
 
   
