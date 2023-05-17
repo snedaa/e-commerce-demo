@@ -109,7 +109,7 @@ Sunucuyu çalıştırın
   
 ## Çıkarılan Dersler
 
-Bu proje kapsamında bir çok yeni react kütüphanesi hakkında bilgi sahibi oldum ve dökümantasyon takip etmenin önemini kavradım.
+Bu proje kapsamında bir çok yeni react kütüphanesi hakkında bilgi sahibi oldum ve dökumantasyon takip etmenin önemini kavradım.
 
 Özel hook fonksiyonlar yazmanın verdiği kolaylığı ve işlevselliğin daha çok farkına vardım.
 
